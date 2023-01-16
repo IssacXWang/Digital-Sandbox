@@ -5,20 +5,18 @@
 	<div class="uk-light uk-flex uk-margin-top uk-margin-bottom" uk-parallax="bgy: -300" style="background-image: url('img/image-hacker1.jpg');height:600px;">
 	 <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
       <div style="font-size: 80px">
-			
+
 			<p style="color: White">Cyber Secsurity </p></div>
 			<div style="font-size: 20px">
 			<p style="color: White">Twitter Analysis , Guohao Wang </p></div>
 	 </div>
 	 </div>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
-      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.9/c3.min.js"></script>
+	 <!-- UIkit -->
 
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/css/uikit.min.css" />
-<link rel="stylesheet" href="tga.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+ 	<script src="uikit-3.15.14/js/uikit.min.js"></script>
+ 	<script src="uikit-3.15.14/js/uikit-icons.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/css/uikit.min.css" />
+
 </head>
 
 <!--Get code from UIkit, write an Introduction, and use a gallery to explain it.-->
@@ -29,7 +27,7 @@
 		    <div class="uk-navbar-light">
 		        <ul class="uk-navbar-nav">
 		            <li><a href="#section1" class="uk-label" style="background-color:mediumspringgreen;" uk-scroll="offset: 75;">Introduction</a></li></p>
-		            <li><a href="#section2" class="uk-label" style="background-color:mediumaquamarine;" uk-scroll="offset: 75;">Analysis</a></li>
+		            <li><a href="#section2" class="uk-label" style="background-color:mediumaquamarine;" uk-scroll="offset: 75;"> Analysis </a></li>
 		            <li><a href="#section3" class="uk-label" style="background-color:green;" style="color:white;" uk-scroll="offset: 75;">Conclusion</a></li>
 						</ul>
 		    </div>
@@ -44,54 +42,36 @@
 		<p>
 			With the continuous development of Internet technology and the popularity of smart products, Cyber Security has increasingly become the focus of attention.Cybersecurity is the practice of protecting critical systems and sensitive information from digital attacks. Also known as information technology (IT) security, cybersecurity measures are designed to combat threats against networked systems and applications, whether those threats originate from inside or outside of an organization.
 			<p>When we use smart products, we are often subject to different types of security threats, whether stealing customer account records or clicking on a <strong>phishing link, suspicious activity by employees,Vendors and suppliers</strong> (or malware that learns to imitate insider behavior while quietly exfiltrating data may cause property damage or privacy leakage. Therefore, software that comes with smart product systems, software developed by third-party companies, and a large amount of network security education have become popular. , related discussions often occur on Twitter.
-
-					<div uk-lightbox>
-							<img src="img/Methods.png" class="uk-animation-slide-left" data-caption="Different types of vectors">
-					</div>
-
-					<figcaption class="uk-text-center uk-text-small">Different types of vectors</figcaption>
-					
-					<div class="uk-position-relative uk-light" uk-slideshow>
-
-					<ul class="uk-slideshow-items">
-							<li>
-									<img src="img/Methods.png" alt="" uk-cover>
-							</li>
-							<li>
-									<img src="img/Method2.jpg" alt="" uk-cover>
-							</li>
-							<li>
-									<img src="img/Method3.jpg" alt="" uk-cover>
-							</li>
-					</ul>
-
-					<div class="uk-position-bottom-center uk-position-small">
-							<ul class="uk-dotnav">
-									<li uk-slideshow-item="0"><a href="#">Item 1</a></li>
-									<li uk-slideshow-item="1"><a href="#">Item 2</a></li>
-									<li uk-slideshow-item="2"><a href="#">Item 3</a></li>
-							</ul>
-					</div>
-			</div>
 		</p>
 		</p>
 
-		<h2 id="section2" style="color:mediumaquamarine;">Analysis</h2>
+		<div class="uk-position-relative uk-dark" uk-slideshow>
 
-		<div class="uk-position-relative uk-light" uk-slideshow>
+		<ul class="uk-slideshow-items">
+				<li>
+						<img src="img/Methods.png" alt="" uk-cover>
+				</li>
+				<li>
+						<img src="img/Method2.png" alt="" uk-cover>
+				</li>
+				<li>
+						<img src="img/Method3.png" alt="" uk-cover>
+				</li>
+		</ul>
+
+		<div class="uk-position-bottom-center uk-position-small">
+				<ul class="uk-dotnav">
+						<li uk-slideshow-item="0"><a href="#">Item 1</a></li>
+						<li uk-slideshow-item="1"><a href="#">Item 2</a></li>
+						<li uk-slideshow-item="2"><a href="#">Item 3</a></li>
+				</ul>
+		</div>
+	</div>
 
 
-    <div class="uk-position-bottom-center uk-position-small">
-        <ul class="uk-dotnav">
-            <li uk-slideshow-item="0"><a href="#">Item 1</a></li>
-            <li uk-slideshow-item="1"><a href="#">Item 2</a></li>
-            <li uk-slideshow-item="2"><a href="#">Item 3</a></li>
-        </ul>
-    </div>
 
-</div>
-
-		<p> I have collected 3823 pieces of information about Cyber Security, and there are many official and well-known Twitter users who initiated this hashtag. It surprises me that there is a lot of information about EVs as well as autonomous driving in the discussion about cybersecurity.</p>
+<h2 id="section2" style="color:mediumaquamarine;">Analysis</h2>
+  	<p> I have collected 3823 pieces of information about Cyber Security, and there are many official and well-known Twitter users who initiated this hashtag. It surprises me that there is a lot of information about EVs as well as autonomous driving in the discussion about cybersecurity.</p>
 
 		<h4>(a) The top tweeters and retweeters</h4>
 		<p> <strong>Top ten twitter</strong>: ___L__A___, corqtrade, CyberSecurityN8, embedded_house, sectest9, SK_Expert, Zxcxz_xyz, jamesvgingerich, SemonesRandy, uCloudify.</p>
@@ -141,8 +121,6 @@
     <img src="img/Sentiment1.jpeg" class="uk-width-5-5@s">
 	</div>
 
-
 </body>
-
 
 </html>
